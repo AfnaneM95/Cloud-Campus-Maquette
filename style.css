@@ -16,13 +16,9 @@ body {
     right: 0;
     left: 0;
 }
-
-img {
+.image {
     width: 38px;
     height: 47.5px;
-    /* position: absolute;
-    top: 16px;
-    bottom: 16.5px; */
 }
 
 h2 {
@@ -65,4 +61,140 @@ a {
     font-style: normal;
     font-size: 18px;
     color: #14171F;
+}
+
+.content {
+    display: flex;
+}
+
+img {
+    width: 1440px;
+    height: 750px;
+}
+
+.title {
+    position: absolute;
+    padding-left: 112px;
+    padding-right: 772px;
+    padding-top: 310px;
+    padding-bottom: 280px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 72px;
+    width: 556px;
+    height: 168px;
+    
+}
+
+.rectangle {
+    display: flex;
+    padding-left: 1024px;
+
+    
+}
+
+.paragraph {
+    position: relative;
+    background: #3559C7;
+    width: 416px;
+    height: 150px;
+    bottom: 190px;
+}
+
+.back {
+    position: absolute;
+    background: #292E3D;
+    width: 208px;
+    height: 40px;
+    bottom: 70px;
+}
+
+.next {
+    position: absolute;
+    background: #292E3D;
+    width: 208px;
+    height: 40px;
+    bottom: 70px;
+    right: 0;
+    border-left: 1px solid white;
+}
+
+.titleRec {
+    position: absolute;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    top: 20px;
+    bottom: 107px;
+    left: 126.5px;
+    right: 126.5px;
+}
+
+.txt {
+    position: absolute;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    line-height: 28px;
+    top: 63px;
+    bottom: 26px;
+    left: 52px;
+    right: 52px;
+    
+}
+
+.txtB {
+    position: absolute;
+    color: #FFFFFF;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    top: 9.5px;
+    bottom: 9.5px;
+    left: 100.5px;
+    right: 64.5px;
+}
+
+.txtN {
+    position: absolute;
+    color: #FFFFFF;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    top: 9.5px;
+    bottom: 9.5px;
+    left: 65px;
+    right: 101px;
+}
+
+.arrow {
+    position: absolute;
+    width: 26px;
+    height: 17px;
+    top: 11.5px;
+    bottom: 11.5px;
+    left: 64.5px;
+    right: 117.5;
+}
+
+.arrowN {
+    position: absolute;
+    width: 26px;
+    height: 17px;
+    transform: rotate(180deg);
+    top: 11.5px;
+    bottom: 11.5px;
+    left: 116px;
+    right: 65px;
 }
