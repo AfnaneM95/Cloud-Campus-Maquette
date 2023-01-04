@@ -21,7 +21,7 @@ body {
     height: 47.5px;
 }
 
-h2 {
+.titleLogo {
     font-family: 'Work Sans';
     font-weight: 700;
     font-size: 30px;
@@ -90,16 +90,18 @@ img {
 .rectangle {
     display: flex;
     padding-left: 1024px;
-
+    margin: unset;
     
 }
 
 .paragraph {
+    display: flex;
     position: relative;
     background: #3559C7;
     width: 416px;
     height: 150px;
     bottom: 190px;
+    margin-left: 1024px;
 }
 
 .back {
@@ -108,6 +110,7 @@ img {
     width: 208px;
     height: 40px;
     bottom: 70px;
+    margin-left: 1024px;
 }
 
 .next {
@@ -197,4 +200,92 @@ img {
     bottom: 11.5px;
     left: 116px;
     right: 65px;
+}
+
+.section {
+    height: 443px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.secondTitle {
+    color: #292E3D;
+    text-align: center;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    padding-bottom: 45px;
+    padding-left: 585px;
+    padding-right: 585px;
+    padding-top: 60px;
+
+}
+
+.square {
+    position: relative;
+    width: 292px;
+    height: 197px;
+    background: #FFFFFF;
+    border: 1.4px solid #E0E3EB;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.imageT, .imageD, .imageS {
+   
+    width: 40px;
+    height: 40px;
+    padding-top: 20px;
+    padding-right: 232px;
+    padding-bottom: 0;
+    padding-left: 20px;
+}
+
+.best {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+h2 {
+    color: #3D445C;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    padding-top: 18px;
+    padding-right: 137px;
+    padding-bottom: 0;
+    padding-left: 20px;
+    margin: unset;
+}
+
+.txtBest {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #858EAD;
+    padding-top: 18px;
+    padding-right: 18px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+}
+
+#services {
+    margin-right: 66px;
+    margin-left: 216px;
+}
+
+#teams {
+    margin-right: 78px;
+}
+
+#designs {
+    margin-right: 204px;
 }
