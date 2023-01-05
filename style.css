@@ -2,8 +2,13 @@
     margin: unset;
 }
 
+h2 {
+    margin: unset;
+}
+
 body {
-    background: rgb(224, 228, 233);
+    background: rgb(255, 255, 255);
+    font-family: 'Work Sans';
 }
 
 .navbar {
@@ -15,6 +20,7 @@ body {
     top: 0;
     right: 0;
     left: 0;
+    z-index: 10000;
 }
 .image {
     width: 38px;
@@ -22,7 +28,6 @@ body {
 }
 
 .titleLogo {
-    font-family: 'Work Sans';
     font-weight: 700;
     font-size: 30px;
     color: #2947A9;
@@ -57,7 +62,6 @@ body {
 
 a {
     text-decoration: none;
-    font-family: 'Work Sans';
     font-style: normal;
     font-size: 18px;
     color: #14171F;
@@ -67,7 +71,7 @@ a {
     display: flex;
 }
 
-img {
+.imageP {
     width: 1440px;
     height: 750px;
 }
@@ -125,7 +129,6 @@ img {
 
 .titleRec {
     position: absolute;
-    font-family: 'Work Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -139,7 +142,6 @@ img {
 
 .txt {
     position: absolute;
-    font-family: 'Work Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -156,7 +158,6 @@ img {
 .txtB {
     position: absolute;
     color: #FFFFFF;
-    font-family: 'Work Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -170,7 +171,6 @@ img {
 .txtN {
     position: absolute;
     color: #FFFFFF;
-    font-family: 'Work Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -207,12 +207,13 @@ img {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .secondTitle {
     color: #292E3D;
     text-align: center;
-    font-family: 'Work Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -253,8 +254,8 @@ img {
 }
 
 h2 {
+    margin: unset;
     color: #3D445C;
-    font-family: 'Work Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -262,11 +263,9 @@ h2 {
     padding-right: 137px;
     padding-bottom: 0;
     padding-left: 20px;
-    margin: unset;
 }
 
 .txtBest {
-    font-family: 'Work Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -288,4 +287,83 @@ h2 {
 
 #designs {
     margin-right: 204px;
+}
+
+.container {
+    padding: 74px 0 200px 0;
+}
+
+.content2 {
+    width: 1200px;
+    height: 669px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.mr {
+    display: inline-block;
+    height: 100%;
+    border-radius: 2px;
+    box-shadow: 0px 20px 24px -4px rgba(17, 24, 39, 0.1), 0px 8px 8px -4px rgba(17, 24, 39, 0.04);
+    
+}
+
+img {
+    height: 100%;
+    border-radius: 2px;
+}
+
+.squareBlue {
+    position: absolute;
+    width: 488px;
+    height: 523px;
+    background: #2947A9;
+    color: #FFFFFF;
+    border-radius: 2px;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.color, .texteAbout {
+    padding-left: 40px;
+}
+
+.color {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    padding-top: 50px;
+    padding-right: 289px;
+    padding-bottom: 27px;
+
+}
+
+.texteAbout {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    padding: 10px 60px 10px 40px; 
+    width: 388px;
+    height: 207px;
+}
+
+button {
+    padding: 16px 20px 16px 20px;
+    width: 219px;
+    height: 53px;
+    background: #FFFFFF;
+    border: 2px solid #2947A9;
+    border-radius: 6px;
+    color: #2947A9;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    margin-top: 62px;
+    margin-left: 40px;
 }
